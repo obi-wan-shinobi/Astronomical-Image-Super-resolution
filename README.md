@@ -83,8 +83,6 @@ sr = resolve_single(model, lr)
 plot_sample(lr, sr)
 ```
 
-![result-edsr](docs/images/result-edsr.png)
-
 ### WDSR
 
 ```python
@@ -98,8 +96,6 @@ sr = resolve_single(model, lr)
 
 plot_sample(lr, sr)
 ```
-
-![result-wdsr](docs/images/result-wdsr.png)
 
 Weight normalization in WDSR models is implemented with the new `WeightNormalization` layer wrapper of
 [Tensorflow Addons](https://github.com/tensorflow/addons). In its latest version, this wrapper seems to
@@ -121,7 +117,6 @@ sr = resolve_single(model, lr)
 plot_sample(lr, sr)
 ```
 
-![result-srgan](docs/images/result-srgan.png)
 
 ## DIV2K dataset
 
